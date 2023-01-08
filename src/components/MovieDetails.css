@@ -1,0 +1,107 @@
+.movie-details__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #394b61;
+    width: 100%;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.movie-details__image {
+    height: 100%;
+}
+
+.movie-details__container img {
+    border-radius: 5px;
+    height: 100%;
+}
+
+.movie-details__info {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.movie-details__basic {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    color: #ced1d8;
+}
+
+.movie-details__basic div {
+    min-width: 20%;
+    padding-bottom: 10px;
+}
+
+.movie-details__title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.movie-details__plot {
+    font-size: 16px;
+}
+
+.movie-details__buttons {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.movie-details__buttons button {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.movie-details__play {
+    background-color: #00e0ff;
+    outline: transparent;
+    border: transparent;
+}
+
+.movie-details__trailer {
+    color: #00e0ff;
+    border: 2px solid #00e0ff;
+    outline: #00e0ff;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .movie-details__container {
+        justify-content: center;
+        padding: 10px;
+        height: 450px;
+        border: solid;
+    }
+
+    .movie-details__image {
+        height: 100px;
+    }
+
+    .movie-details__container img {
+        border-radius: 5px;
+        height: 100px;
+    }
+
+    .movie-details__basic {
+        font-size: 14px;
+    }
+
+    .movie-details__title {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .movie-details__plot {
+        font-size: 12px;
+    }
+
+    .movie-details__buttons {
+        flex-direction: column;
+    }
+}

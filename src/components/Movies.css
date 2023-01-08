@@ -1,0 +1,34 @@
+.movies-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: fit-content;
+    gap: 20px;
+}
+
+.movies-item {
+    padding: 5px;
+    background-color: #394b61;
+    border-radius: 10px;
+    height: 275px;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.movies-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.movies-image {
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .movies-container {
+        justify-content: center;
+    }
+}
