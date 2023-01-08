@@ -1,5 +1,9 @@
 import './Profile.css';
 
+/**
+ * Component for showing profile picture along with name.
+ * This component will not be visible on mobile devices.
+ */
 const Profile = (props) => {
     return (
         <div className='profile-container'>

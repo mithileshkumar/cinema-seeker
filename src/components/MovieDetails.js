@@ -1,5 +1,9 @@
 import './MovieDetails.css';
 
+/**
+ * Component for showing details of selected movie.
+ * TODO: add rating
+ */
 const MovieDetails = (props) => {
     return (
         <div className='movie-details__container'>

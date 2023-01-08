@@ -12,6 +12,10 @@ import UpdateIcon from '@mui/icons-material/Update';
 
 import './Navbar.css';
 
+/**
+ * Component for showing navigation menu.
+ * This component will show only icons for mobile devices.
+ */
 const Navbar = () => {
 
     return (

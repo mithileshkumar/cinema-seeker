@@ -5,6 +5,10 @@ import SearchIcon from '@mui/icons-material/Search';
 
 import './Searchbar.css';
 
+/**
+ * Component for searching list of movies.
+ * Option to switch to dark mode but it's WIP.
+ */
 const Searchbar = (props) => {
     const searchMovies = (movie) => {
         props.updateMovies(movie.target.value);

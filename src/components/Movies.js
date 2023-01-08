@@ -3,6 +3,10 @@ import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 
 import './Movies.css';
 
+/**
+ * Component for showing movie list with titles.
+ * Based on selection of movie, the details panel will show.
+ */
 const Movies = (props) => {
 
     const updateMovieDetails = (imdbID) => {
